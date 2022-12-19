@@ -2596,7 +2596,9 @@ a.smititle11670:hover {
     top: 5px;
     left: 20px;
 }
-
+.b-main-photo-overlay {
+    display: none !important;
+}
 .b-main-photo-overlay-wrapper .b-download a,
 .b-media-img .b-download a {
     color: #ddd;
