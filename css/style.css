@@ -346,7 +346,6 @@ a:hover {
 .g-new-block {
     margin-top: 25px;
     margin-bottom: 35px;
-
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -2149,11 +2148,16 @@ a:hover {
     font-size: 0.9em;
 }
 
+.btn-group {
+    left: 65px !important;
+}
+
 /* =====================================================================================================================
             PARTNERS
 ===================================================================================================================== */
 
 .b-partners-nws__title {
+    display: none;
     font-size: 1.3em;
     font-weight: bold;
     text-transform: uppercase;
@@ -2851,10 +2855,12 @@ blockquote.horizontal-inject {
 }
 
 .b-prev-next-article__left {
+    display: none;
     border-left: 2px solid #333333;
 }
 
 .b-prev-next-article__right {
+    display: none;
     border-right: 2px solid #333333;
     text-align: right;
 }
@@ -2894,12 +2900,15 @@ blockquote.horizontal-inject {
 }
 
 .b-socials {
+    display: none;
     font-weight: bold;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 15px 0;
 }
-
+.offset-1 {
+    display: none;
+}
 .b-socials span {
     white-space: nowrap;
 }
@@ -2907,6 +2916,7 @@ blockquote.horizontal-inject {
 /* ссылки на яндекс и гугл */
 
 .b-channels {
+    display: none;
     margin-bottom: 20px;
 }
 
@@ -3002,7 +3012,7 @@ hr.incut {
     padding: 10px;
     width: 100%;
     position: relative;
-    display: inline-block;
+    display: none;
 }
 
 .b-incut-big-full .b-incut__image {
@@ -3423,6 +3433,7 @@ hr.incut {
 --------------------------------------------------------------------------------------------------------------------- */
 
 .footer__info {
+    display: none;
     font-size: 0.7em;
 }
 
@@ -3450,6 +3461,7 @@ hr.incut {
 
 .b-footer__bottom {
     padding-top: 10px;
+    display: none;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------
