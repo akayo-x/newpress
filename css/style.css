@@ -2647,7 +2647,9 @@ blockquote.horizontal-inject {
     border-bottom: solid;
     border-width: 2px;
 }
-
+.external_iframe {
+    display: none !important;
+}
 .b-article-photo-overlay-wrapper {
     position: relative;
 }
@@ -2661,6 +2663,7 @@ blockquote.horizontal-inject {
     color: white;
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
+    display: none;
 }
 
 .b-article-photo-overlay--small {
